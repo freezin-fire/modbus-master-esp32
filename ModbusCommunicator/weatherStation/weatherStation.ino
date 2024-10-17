@@ -32,13 +32,12 @@ void setup() {
 }
 
 void loop() {
-  uint8_t result;
+  uint16_t result;
   
   // Reading the 8 Holding registers according to the sensor specifications
   result = node.readHoldingRegisters(0x0000, 8);
 
   if (result == node.ku8MBSuccess) {
-
     Serial.println("-------------------------------------");
     Serial.print("Wind direction: ");
     Serial.print(node.getResponseBuffer(0));
@@ -69,5 +68,6 @@ void loop() {
     Serial.print("Modbus Error: ");
     Serial.println(result);
   }
+
   delay(1000);
 }
