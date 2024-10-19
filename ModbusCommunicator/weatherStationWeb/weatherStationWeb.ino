@@ -3,15 +3,15 @@
 #include <ModbusMaster.h>
 
 // Replace with your Wi-Fi SSID and password
-const char* ssid = "Airtel_kris_9998";
-const char* password = "air23985";
+const char* ssid = "";
+const char* password = "";
 
 // REPLACE with your Domain name and URL path or IP address with path
-const char* serverName = "http://weatherdata.free.nf/esp-post-data.php";
+const char* serverName = "";
 
 // Keep this API Key value to be compatible with the PHP code.
 // If you change the apiKeyValue value, the PHP file /post-esp-data.php also needs to have the same key
-String apiKeyValue = "tPmAT5bgfe40536l";
+String apiKeyValue = "";
 
 String sensor_status = "Offline";
 
