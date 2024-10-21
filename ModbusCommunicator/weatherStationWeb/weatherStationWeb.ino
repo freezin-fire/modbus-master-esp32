@@ -8,11 +8,8 @@ const char* ssid = "";
 const char* password = "";
 
 // REPLACE with your Domain name and URL path or IP address with path
-<<<<<<< HEAD
-const char* serverName = "http://example.com/esp-post-data.php";
-=======
+// const char* serverName = "http://example.com/esp-post-data.php";
 const char* serverName = "";
->>>>>>> 6642f9c037e938d81a7e7820a77bf9cee4a3256c
 
 // Keep this API Key value to be compatible with the PHP code.
 // If you change the apiKeyValue value, the PHP file /post-esp-data.php also needs to have the same key
